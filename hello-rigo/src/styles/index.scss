@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.tile{
+    width: 33.33%;
+    height: 150px;
+    font-size: 60px;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+.menu{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
