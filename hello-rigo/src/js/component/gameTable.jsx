@@ -10,7 +10,7 @@ export default class GameTable extends React.Component {
 		super();
 		this.state = {
 			gameBoard: [" ", " ", " ", " ", " ", " ", " ", " ", " "],
-			winner: null,
+			winner: "s",
 			turn: "x"
 		};
 	}
@@ -18,7 +18,7 @@ export default class GameTable extends React.Component {
 	resetBoard() {
 		this.setState({
 			gameBoard: [" ", " ", " ", " ", " ", " ", " ", " ", " "],
-			winner: null,
+			winner: "s",
 			turn: "x"
 		});
 	}
@@ -26,7 +26,7 @@ export default class GameTable extends React.Component {
 	updateBoard(loc, player) {
 		//Game Over!
 		console.log(this.state.winner, this.state.turn, this.state.gameBoard);
-		if (this.state.winner !== null) {
+		if (this.state.winner !== "s") {
 			//make game over component visible
 			console.log("Winner", this.state.winner);
 			return;
