@@ -1,0 +1,7 @@
+{
+    "gameBoard": Array,
+	"winner": String,
+	"turn": String,
+	"loc": Number,
+	"value": String
+}

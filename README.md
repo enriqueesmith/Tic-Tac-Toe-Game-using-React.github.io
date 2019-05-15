@@ -1,3 +1,12 @@
+# Tic Tac Toe Game using React
+
+A simple game of Tic Tac Toe built using HTML, CSS, JavaScript, Webpack and ReactJS. Once the users open the application, a blank game of Tic Tac Toe will appear. The users must choose whether they want to be X or O.
+The first player to go is X, then O. To play the game simply click on the square you wish to occupy and either an X or an O will appear depending on who's turn it is.
+Once somebody wins, an HTML element is introduced that pronounces the winner. To start a new game, simply click "Reset".
+
+See the Live Demo here: https://enriqueesmith.github.io/Tic-Tac-Toe-Game-using-React.github.io/ .
+
+
 # Hello World with React and Cloud 9
 
 Requirements: Make sure you are using node version 8
