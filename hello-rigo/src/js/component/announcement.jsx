@@ -4,7 +4,7 @@ import PropType from "prop-types";
 export default class Announcement extends React.Component {
 	render() {
 		var message = "";
-		if (this.props.winner === "d") message = "It's a draw";
+		if (this.props.winner === "d") message = "Game over! It's a draw.";
 		else message = `${this.props.winner.toUpperCase()} is the winner!`;
 
 		return (

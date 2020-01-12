@@ -48,14 +48,10 @@ export default class GameTable extends React.Component {
 				console.log("Moves:", moves, "Winner:", this.state.winner);
 				//Check if all moves are done and there is a winner.
 				if (moves.length === 9 && this.state.winner === "s") {
-					this.setState({ winner: this.state.turn });
+					this.setState({ winner: "d"});
 					//Make game over component visible
 					return;
 					//Check if there is no winner after all the moves are done. If no winner, then there is a draw.
-				} else if (moves.length === 9 && this.state.winner !== "s") {
-					this.setState({ winner: "d" });
-					//Make game over component visible
-					return;
 				} else {
 					var topRow =
 						this.state.gameBoard[0] +
